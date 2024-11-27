@@ -1631,11 +1631,9 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
-			/* Mos3ab*/
-			height: 400px; /* Set your desired standard height */
-			object-fit: cover; /* Crops the image while maintaining aspect ratio */
-			object-position: center; /* Ensures the center of the image is visible */
-			/* Mos3ab*/
+			/*Mos3ab*/
+			object-fit: cover;
+			/*Mos3ab*/
 		}
 
 		.image.fit {
@@ -1647,10 +1645,13 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
-			/*Mos3ab*/
-			height: 400px; /* Match the height to maintain consistency */
-			object-fit: cover;
-			/*Mos3ab*/
+		}
+		.mos3ab_image {
+			/* Mos3ab*/
+			height: 400px; /* Set your desired standard height */
+			object-fit: cover; /* Crops the image while maintaining aspect ratio */
+			object-position: center; /* Ensures the center of the image is visible */
+			/* Mos3ab*/
 		}
 
 		.image.left {
